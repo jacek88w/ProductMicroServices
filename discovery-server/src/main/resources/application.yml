@@ -4,6 +4,8 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    username: eureka
+    password: password
 
 server:
   port: 8761
